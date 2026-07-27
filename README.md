@@ -177,9 +177,9 @@ One honest caveat: some phones (MIUI, ColorOS, Samsung, and similar heavily-cust
 
 ## Running it locally
 
-\`\`\`bash
+```bash
 git clone https://github.com/arghadwip23/ringly.git
-\`\`\`
+```
 
 Open it in Android Studio, let Gradle sync (dependencies come from the version catalog, so nothing extra to install), and run it on a device or emulator with API 29 or above. On first launch you'll be asked to grant Do Not Disturb access — without it, the app can't change your ringer mode, so don't skip that step.
 
